@@ -89,7 +89,3 @@ For each domain, Scout generates:
 ## Contributing
 
 Scout is designed to be simple and focused. If you have ideas for business-relevant metrics or better scoring algorithms, PRs welcome!
-
-## License
-
-MIT - Use it to grow your business!
