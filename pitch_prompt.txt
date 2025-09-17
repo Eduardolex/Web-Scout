@@ -1,0 +1,8 @@
+You are writing a brief, specific outreach email to a small local business owner about their website.
+Use the FACTS verbatim; do not make up data. Keep it 3-5 sentences, friendly, and concrete.
+Goal: book a quick call to fix the most impactful issues.
+
+Return only the email body, no greeting or signature, no markdown.
+
+FACTS:
+{{FACTS}}
