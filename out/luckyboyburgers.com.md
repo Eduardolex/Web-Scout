@@ -1,4 +1,4 @@
-# Scout Report — https://luckyboyburgers.com/
+# Scout Report: https://luckyboyburgers.com/
 
 **Score:** 80/100
 **Title:** Lucky Boy Burgers - Established 1961 Offering Burritos, Burgers, and Sandwiches

@@ -105,7 +105,7 @@ def extract_basic(url:str):
     }
 
 def score_site(d:dict):
-    # Simple 0–100 scout score with big weight on basics a small business cares about
+    # Simple 0-100 scout score with big weight on basics a small business cares about
     score = 0
     if not d.get("ok"): return 0
     # responsiveness & basics
@@ -153,7 +153,7 @@ def facts_block(url:str, d:dict, score:int)->str:
 
 def md_block(url:str, d:dict, score:int)->str:
     def yn(x): return "Yes" if x else "No"
-    return f"""# Scout Report — {url}
+    return f"""# Scout Report: {url}
 
 **Score:** {score}/100
 **Title:** {d.get('title','')}
@@ -204,7 +204,7 @@ def main():
         if not url: continue
         if not url.startswith("http"):
             url = "https://" + url
-        print("→ Scouting", url)
+        print("Scouting", url)
         try:
             data = extract_basic(url)
             save_outputs(url, data)

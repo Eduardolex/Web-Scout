@@ -1,4 +1,4 @@
-# Scout Report — https://www.visitpalmdale.org/listing/palmdale-marketplace/230/
+# Scout Report: https://www.visitpalmdale.org/listing/palmdale-marketplace/230/
 
 **Score:** 78/100
 **Title:** Palmdale Marketplace
