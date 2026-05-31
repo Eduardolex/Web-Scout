@@ -1,0 +1,16 @@
+Domain: luckyboyburgers.com
+URL: https://luckyboyburgers.com/
+ScoutScore: 80/100
+Title: Lucky Boy Burgers - Established 1961 Offering Burritos, Burgers, and Sandwiches
+H1: Home
+Meta description present: True
+Word count (main content): 10
+Uses HTTPS: True
+Mobile viewport tag: True
+First-byte response time (ms): 491
+Has phone on page: True
+Has email on page: True
+Has booking CTA: True
+Images found: 21
+CMS hint: {'generator': '', 'wordpress': False, 'wix': False, 'squarespace': True, 'shopify': False}
+robots.txt present: True, sitemap: http://luckyboyburgers.com/sitemap.xml

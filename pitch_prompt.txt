@@ -5,4 +5,19 @@ Goal: book a quick call to fix the most impactful issues.
 Return only the email body, no greeting or signature, no markdown.
 
 FACTS:
-{{FACTS}}
+DDomain: urthcaffe.com
+URL: https://www.urthcaffe.com/
+ScoutScore: 0/100
+Title: 
+H1: 
+Meta description present: False
+Word count (main content): None
+Uses HTTPS: None
+Mobile viewport tag: None
+First-byte response time (ms): 408
+Has phone on page: None
+Has email on page: None
+Has booking CTA: None
+Images found: None
+CMS hint: None
+robots.txt present: None, sitemap: None

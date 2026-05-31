@@ -1,0 +1,29 @@
+{
+  "url": "https://www.visitpalmdale.org/listing/palmdale-marketplace/230/",
+  "score": 78,
+  "data": {
+    "ok": true,
+    "status": 200,
+    "rt_ms": 904,
+    "title": "Palmdale Marketplace",
+    "meta_desc": "Target. Barnes and Noble. Best Buy. It can all be found at the Palmdale Marketplace, one of the largest retail centers in the city for shopping and dining.",
+    "h1": "",
+    "word_count": 8,
+    "has_viewport": true,
+    "uses_https": true,
+    "has_phone": true,
+    "has_email": true,
+    "has_booking": true,
+    "has_ga": true,
+    "img_count": 8,
+    "cms_hint": {
+      "generator": "",
+      "wordpress": false,
+      "wix": false,
+      "squarespace": false,
+      "shopify": false
+    },
+    "robots_txt": true,
+    "sitemap": "https://www.visitpalmdale.org/sitemap.xml"
+  }
+}

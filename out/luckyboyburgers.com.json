@@ -1,0 +1,29 @@
+{
+  "url": "https://luckyboyburgers.com/",
+  "score": 80,
+  "data": {
+    "ok": true,
+    "status": 200,
+    "rt_ms": 491,
+    "title": "Lucky Boy Burgers - Established 1961 Offering Burritos, Burgers, and Sandwiches",
+    "meta_desc": "Celebrated for its signature breakfast burritos and American comfort menu, \r\nfeaturing a variety of handcrafted burritos, burgers, salads, and \r\nsandwiches.",
+    "h1": "Home",
+    "word_count": 10,
+    "has_viewport": true,
+    "uses_https": true,
+    "has_phone": true,
+    "has_email": true,
+    "has_booking": true,
+    "has_ga": false,
+    "img_count": 21,
+    "cms_hint": {
+      "generator": "",
+      "wordpress": false,
+      "wix": false,
+      "squarespace": true,
+      "shopify": false
+    },
+    "robots_txt": true,
+    "sitemap": "http://luckyboyburgers.com/sitemap.xml"
+  }
+}
