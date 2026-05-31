@@ -10,6 +10,25 @@ os.makedirs(OUT_DIR, exist_ok=True)
 
 UA = {"User-Agent": "Mozilla/5.0 (compatible; SiteScout/1.0)"}
 
+def clean_text(s:str)->str:
+    if not s:
+        return s
+    replacements = {
+        "—": "-",  # em dash
+        "–": "-",  # en dash
+        "―": "-",  # horizontal bar
+        "‒": "-",  # figure dash
+        "‘": "'",  # left single quote
+        "’": "'",  # right single quote
+        "“": '"',  # left double quote
+        "”": '"',  # right double quote
+        "…": "...",  # ellipsis
+        " ": " ",  # non-breaking space
+    }
+    for bad, good in replacements.items():
+        s = s.replace(bad, good)
+    return s
+
 def domain_key(url:str)->str:
     netloc = urlparse(url).netloc
     return netloc.replace(":", "_")
@@ -40,14 +59,14 @@ def extract_basic(url:str):
     except Exception:
         main_text = ""
 
-    title = (soup.title.get_text(strip=True) if soup.title else "")
+    title = clean_text(soup.title.get_text(strip=True) if soup.title else "")
     meta_desc = ""
     md = soup.find("meta", attrs={"name": "description"})
     if md and md.get("content"):
-        meta_desc = md["content"].strip()
+        meta_desc = clean_text(md["content"].strip())
 
     h1 = soup.find("h1")
-    h1_text = h1.get_text(strip=True) if h1 else ""
+    h1_text = clean_text(h1.get_text(strip=True) if h1 else "")
 
     # Heuristics
     has_viewport = bool(soup.find("meta", attrs={"name": "viewport"}))
